@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #333;
+}
+
+.head{
+    background: rgb(218, 8, 8);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.head .eyes{
+    width: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eyes .eye{
+    width: 23px;
+    height: 23px;
+    background-color: #333;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.eyes .eye1{
+    position: absolute;
+    left: 15px;
+    top: -20px;
+}
+
+.eyes .eye2{
+    position: absolute;
+    left: 65px;
+    top: -20px;
+}
+
+.eyes, .brows{
+    position: absolute;
+    width: 195px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brow{
+    width: 65px;
+    height: 32px;
+    border-top: 10px solid #333;
+    border-radius: 100%;
+    margin-bottom: 35px;
+}
+
+.no1{
+    transform: rotate(20deg);
+}
+
+.no2{
+    transform: rotate(-20deg);
+}
+
+.head .mouth{
+    width: 65px;
+    height: 32px;
+    border-top: 10px solid #333;
+    border-radius: 100%;
+    position: absolute;
+    top: 70%;
+}
+
+.alienhead{
+    background: rgb(101, 255, 96);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(50deg);
+    border-radius: 50% 50% 20px 50%;
+    margin-right: 80px;
+}
+
+.alieneyess{
+    position: unset;
+    transform: rotate(-50deg);
+    display: flex;
+    justify-content: center;
+}
+
+.alieneye1{
+    background-color: rgb(39, 39, 39);
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    border-radius: 2px 60% 2px 60%;
+}
+
+.alieneye2{
+    background-color: rgb(39, 39, 39);
+    width: 50px;
+    height: 50px;
+    border-radius: 60% 2px 60% 2px;
+}
+
+.alienmouth{
+    width: 68px;
+    height: 32px;
+    border-top: 7px solid  rgb(39, 39, 39);
+    border-radius: 100%;
+    margin-bottom: 35px;
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 55%;
+    /* bottom: 10%; */
+    transform: rotate(130deg);
+}
+
+.big-eye{
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 100% 0 100% 0;
+    border-top: 3px solid hsl(19, 46%, 68%);
+    border-bottom: 3px solid hsl(19, 46%, 68%);
+    border-right: 3px solid hsl(19, 46%, 68%);
+    border-left: 3px solid hsl(19, 46%, 68%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.eye-inside{
+    width: 110px;
+    height: 110px;
+    background: linear-gradient(#000, #ffbf00);
+    border-radius: 100%;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.another-one{
+    width: 85px;
+    height: 85px;
+    background: #000;
+    border-radius: 100%;
+    transform: rotate(-45deg);
+    margin-bottom: 15px;
+    margin-right: 2px;
+}
